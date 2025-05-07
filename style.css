@@ -11,3 +11,12 @@ $display-font-sizes: (
   $display-font-style:  null;
   $display-font-weight: 300;
   $display-line-height: $headings-line-height;
+
+.body{
+    .h4{
+        color: blueviolet;
+    }
+
+    
+}
+
