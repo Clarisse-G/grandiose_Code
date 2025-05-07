@@ -1,4 +1,4 @@
-$display-font-sizes: (
+display-font-sizes: (
     1: 5rem,
     2: 4.5rem,
     3: 4rem,
@@ -7,7 +7,56 @@ $display-font-sizes: (
     6: 2.5rem
   );
   
-  $display-font-family: null;
-  $display-font-style:  null;
-  $display-font-weight: 300;
-  $display-line-height: $headings-line-height;
+  display-font-family: inter;
+  display-font-style:  null;
+  display-font-weight: 300;
+  display-line-height: headings-line-height;
+
+
+  body {
+    margin: 0;
+    font-family: Inter, sans-serif;
+  }
+  
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: white;
+  }
+  
+  .logo {
+    font-weight: bold;
+    font-size: 20px;
+    color: #7a36ff; /* violet */
+  }
+  
+  .nav-links a {
+    margin-left: 30px;
+    text-decoration: none;
+    font-size: 16px;
+    color: gray;
+    transition: color 0.3s ease;
+  }
+  
+  
+  .nav-links a:hover {
+    color: #7a36ff;
+  }
+
+  .btn-primary {
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg: var(--bs-indigo);
+    --bs-btn-border-color: darkpurple;
+    --bs-btn-border-radius: .5rem;
+    --bs-btn-hover-color: var(--bs-white);
+    --bs-btn-hover-bg: red;
+    --bs-btn-hover-border-color: orange;
+    --bs-btn-focus-shadow-rgb: green;
+    --bs-btn-active-color: yellow;
+    --bs-btn-active-bg: purple;
+    --bs-btn-active-border-color: red;
+      }
