@@ -7,7 +7,7 @@ display-font-sizes: (
     6: 2.5rem
   );
   
-  display-font-family: null;
+  display-font-family: inter;
   display-font-style:  null;
   display-font-weight: 300;
   display-line-height: headings-line-height;
@@ -45,3 +45,18 @@ display-font-sizes: (
   .nav-links a:hover {
     color: #7a36ff;
   }
+
+  .btn-primary {
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg: var(--bs-indigo);
+    --bs-btn-border-color: darkpurple;
+    --bs-btn-border-radius: .5rem;
+    --bs-btn-hover-color: var(--bs-white);
+    --bs-btn-hover-bg: red;
+    --bs-btn-hover-border-color: orange;
+    --bs-btn-focus-shadow-rgb: green;
+    --bs-btn-active-color: yellow;
+    --bs-btn-active-bg: purple;
+    --bs-btn-active-border-color: red;
+      }
