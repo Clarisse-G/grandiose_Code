@@ -33,16 +33,23 @@
 
   .navbar {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    align-items: center;
-    padding: 20px 40px;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+    padding: 0px 60px;
     background-color: white;
   }
   
   .logo {
-    font-weight: bold;
-    font-size: 20px;
-    color: #7a36ff; /* violet */
+  display: flex;
+   padding: 8px 16px;
+   align-items: center;
+   gap: 16px;
+   font-weight: bold;
+   font-size: 20px;
+   color: #7a36ff; /* violet */
   }
   
   .nav-links b {
