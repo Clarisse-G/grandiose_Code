@@ -32,40 +32,28 @@
   
 
   .navbar {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 8px;
-    align-self: stretch;
-    padding: 0px 60px;
-    background-color: white;
-  }
+    --bs-navbar-brand-font-weight: 700;
+    --bs-navbar-brand-color: #7a36ff;
+    --bs-navbar-brand-hover-color: #7a36ff
+}
 
-  
-  .nav-links b {
-    font-weight: 400;
-    margin-left: 30px;
-    text-decoration: none;
+.navbar-brand {
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
+
+.navbar-item {
+    color: var(--Primary-Color-Dark, #5227CC);
+    /* Body/ Base text */
+    font-family: Inter;
     font-size: 16px;
-    color: #7a36ff;
-    line-height: 28px; /* 175% */
-    transition: color 0.3s ease;
-  }
-
-  .nav-links a {
+    font-style: normal;
     font-weight: 400;
-    margin-left: 30px;
-    text-decoration: none;
-    font-size: 16px;
-    color: #6C757D;
-    line-height: 28px;
-    transition: color 0.3s ease;
-  }
-
-  .nav-links a:hover {
-    color: #7a36ff;
-  }
+    line-height: 175%;
+}
 
   .btn-primaire{
     --bs-btn-font-weight: 600;
