@@ -56,16 +56,52 @@ text-transform: uppercase;
 }
 
   .btn-primaire{
-    --bs-btn-font-weight: 600;
-    --bs-btn-color: var(var(--bs-btn-white));
-    --bs-btn-bg: var(--bs-indigo);
-    --bs-btn-border-color: darkpurple;
-    --bs-btn-border-radius: .5rem;
-    --bs-btn-hover-color: var(--bs-white);
-    --bs-btn-hover-bg: indigo;
-    --bs-btn-hover-border-color: rgb(212, 105, 212);
-    --bs-btn-focus-shadow-rgb: green;
-    --bs-btn-active-color: white;
-    --bs-btn-active-bg: purple;
-    --bs-btn-active-border-color: indigo;
+    --bs-btn-font-weight: 500;
+     --bs-btn-font-size: 12px;
+     --bs-btn-colortext : rgba(102, 16, 242, 1);
+     --bs-btn-border : rgba(102, 16, 242, 1);
+     --bs-btn-bg: rgba(102, 16, 242, 1);
+     --bs-btn-border-color: purple;
+     --bs-btn-border-radius: .5rem;
+     --bs-btn-hover-color: white;
+     --bs-btn-hover-bg: indigo;
+     --bs-btn-hover-border-color: rgb(212, 105, 212);
+     --bs-btn-focus-shadow-rgb: green;
+     --bs-btn-active-color: white;
+     --bs-btn-active-bg: purple;
+     --bs-btn-active-border-color: indigo;
+ }
+
+ .btn-main{
+  --bs-btn-font-weight: 500;
+   --bs-btn-font-size: 12px;
+   --bs-btn-colortext : rgba(102, 16, 242, 1);
+   --bs-btn-border : rgba(102, 16, 242, 1);
+   --bs-btn-bg: rgb(230, 224, 238);
+   --bs-btn-border-color: purple;
+   --bs-btn-border-radius: .5rem;
+   --bs-btn-hover-color: white;
+   --bs-btn-hover-bg: indigo;
+   --bs-btn-hover-border-color: rgb(212, 105, 212);
+   --bs-btn-focus-shadow-rgb: green;
+   --bs-btn-active-color: white;
+   --bs-btn-active-bg: purple;
+   --bs-btn-active-border-color: indigo;
+}
+
+.btn-gris{
+  --bs-btn-font-weight: 500;
+  --bs-btn-font-size: 12px;
+  --bs-btn-colortext : rgba(102, 16, 242, 1);
+  --bs-btn-border : rgba(102, 16, 242, 1);
+  --bs-btn-bg: rgb(87, 20, 20);
+  --bs-btn-border-color: purple;
+  --bs-btn-border-radius: .5rem;
+  --bs-btn-hover-color: white;
+  --bs-btn-hover-bg: indigo;
+  --bs-btn-hover-border-color: rgb(212, 105, 212);
+  --bs-btn-focus-shadow-rgb: green;
+  --bs-btn-active-color: white;
+  --bs-btn-active-bg: purple;
+  --bs-btn-active-border-color: indigo;
 }
