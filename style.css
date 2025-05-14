@@ -29,31 +29,6 @@
     margin: 0;
     font-family: Inter, sans-serif;
   }
-  
-
-  .navbar {
-    --bs-navbar-brand-font-weight: 700;
-    --bs-navbar-brand-color: #7a36ff;
-    --bs-navbar-brand-hover-color: #7a36ff
-}
-
-.navbar-brand {
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-text-transform: uppercase;
-}
-
-.navbar-item {
-    color: var(--Primary-Color-Dark, #5227CC);
-    /* Body/ Base text */
-    font-family: Inter;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 175%;
-}
 
   .btn-primaire{
     --bs-btn-font-weight: 500;
