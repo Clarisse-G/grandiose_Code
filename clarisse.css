@@ -23,8 +23,8 @@
 }
 
 .btn .btn-troisième{
-    --bs-btn-font-weight: 500;
-    --bs-btn-font-size: 12px;
+    --bs-btn-font-weight: 300;
+    --bs-btn-font-size: 10px;
     --bs-btn-colortext : rgba(102, 16, 242, 1);
     --bs-btn-border : rgba(102, 16, 242, 1);
     --bs-btn-bg: rgb(255, 255, 255);
