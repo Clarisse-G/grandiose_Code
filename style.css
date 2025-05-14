@@ -76,9 +76,9 @@
     color: #7a36ff;
   }
 
-  .btn-primary {
+  .btn-primaire{
     --bs-btn-font-weight: 600;
-    --bs-btn-color: var(--bs-white);
+    --bs-btn-color: var(var(--bs-btn-white));
     --bs-btn-bg: var(--bs-indigo);
     --bs-btn-border-color: darkpurple;
     --bs-btn-border-radius: .5rem;
@@ -88,5 +88,5 @@
     --bs-btn-focus-shadow-rgb: green;
     --bs-btn-active-color: white;
     --bs-btn-active-bg: purple;
-    --bs-btn-active-border-color: red;
+    --bs-btn-active-border-color: indigo;
             }
