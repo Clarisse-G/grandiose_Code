@@ -1,16 +1,18 @@
-display-font-sizes: (
+/* display-font-sizes: (
     1: 5rem,
     2: 4.5rem,
     3: 4rem,
     4: 3.5rem,
     5: 3rem,
     6: 2.5rem
-  );
+  ); */
+
+
   
-  display-font-family: inter;
+  /* display-font-family: inter;
   display-font-style:  null;
   display-font-weight: 300;
-  display-line-height: headings-line-height;
+  display-line-height: headings-line-height; */
 
 
   body {
@@ -46,10 +48,10 @@ display-font-sizes: (
     color: #7a36ff;
   }
 
-  .btn-primary {
+  /* .btn-primary {
     --bs-btn-font-weight: 600;
     --bs-btn-color: var(--bs-white);
-    --bs-btn-bg: var(--bs-indigo);
+     
     --bs-btn-border-color: darkpurple;
     --bs-btn-border-radius: .5rem;
     --bs-btn-hover-color: var(--bs-white);
@@ -59,4 +61,8 @@ display-font-sizes: (
     --bs-btn-active-color: yellow;
     --bs-btn-active-bg: purple;
     --bs-btn-active-border-color: red;
-      }
+      } */
+
+.btn-primary{
+  background: var(--Primary-Color, #7749F8);
+} 
