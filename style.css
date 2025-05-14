@@ -15,6 +15,15 @@
   display-font-weight: 300;
   display-line-height: headings-line-height; */
 
+.content_plus_button{
+  color: rgba(67, 40, 116, 1);
+
+  .t1{
+    font-weight: 900;
+    font-size: larger;
+  }
+}
+
 .content-plus-button{
   display: flex;  
   padding: 3rem 4.5rem; 
@@ -63,3 +72,4 @@
    --bs-btn-active-bg: purple;
    --bs-btn-active-border-color: indigo;
 }
+
