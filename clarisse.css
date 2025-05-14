@@ -4,3 +4,9 @@
 .help{
     color: rgba(82, 13, 194, 1);
 }
+.number{
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+}
