@@ -16,25 +16,25 @@
     align-items: flex-start;
     gap: 10px;
     flex: 1 0 0;
-    color: rgba(82, 13, 194, 1);
+    color: rgba(61, 10, 145, 1);
     }
 
 
 }
 
-.btn .btn-troisième{
-    --bs-btn-font-weight: 300;
-    --bs-btn-font-size: 10px;
-    --bs-btn-colortext : rgba(102, 16, 242, 1);
-    --bs-btn-border : rgba(102, 16, 242, 1);
-    --bs-btn-bg: rgb(255, 255, 255);
-    --bs-btn-border-color: purple;
+.btn-troisième{
+    --bs-btn-font-weight: 500;
+    --bs-btn-font-size: 12px;
+    --bs-btn-color : rgba(102, 16, 242, 1);
+    --bs-btn-border :rgba(102, 16, 242, 1);
+    --bs-btn-bg: rgb(251, 251, 251);
+    --bs-btn-border-color: rgba(102, 16, 242, 1);
     --bs-btn-border-radius: .5rem;
     --bs-btn-hover-color: white;
     --bs-btn-hover-bg: indigo;
-    --bs-btn-hover-border-color: rgb(212, 105, 212);
+    --bs-btn-hover-border-color: indigo;
     --bs-btn-focus-shadow-rgb: green;
     --bs-btn-active-color: white;
-    --bs-btn-active-bg: purple;
+    --bs-btn-active-bg:indigo;
     --bs-btn-active-border-color: indigo;
 }
