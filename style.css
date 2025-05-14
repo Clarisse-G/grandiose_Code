@@ -15,6 +15,15 @@
   display-font-weight: 300;
   display-line-height: headings-line-height; */
 
+.content-plus-button{
+  display: flex;  
+  padding: 3rem 4.5rem; 
+  flex-direction: column; 
+  justify-content: center;  
+  align-items: flex-start;
+  gap: 2rem;
+  align-self: stretch;
+}
 
   body {
     margin: 0;
@@ -61,9 +70,9 @@
     color: #7a36ff;
   }
 
-  .btn-primaire {
+  .btn-primary {
     --bs-btn-font-weight: 600;
-    --bs-btn-color: var(--bs-indigo);
+    --bs-btn-color: var(--bs-white);
     --bs-btn-bg: var(--bs-indigo);
     --bs-btn-border-color: darkpurple;
     --bs-btn-border-radius: .5rem;
