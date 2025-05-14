@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: Inter, sans-serif;
+  }
+  
+.a-number{
+    display: flex; 
+    padding: 3rem 0rem;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: start;
+    flex: 1 0 0;
+}
+
+.number{
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+    align-self: stretch;
+}
+
+.number-section{
+    display: flex; 
+    padding: 0rem 4.5rem; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.container-testimonial{
+    display: flex;
+    align-items: flex-start;    
+    gap: 2.5rem;
+    align-self: stretch;
+}
+
+.testimony{
+    display: flex;
+    padding: 2rem 1.5rem;
+    align-items: flex-start;
+    gap: 1rem;
+    flex: 1 0 0;
+}
+
+.testimonies-img{
+    display: flex;
+    width: 4rem;
+    height: 4rem;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1/1;
+}
