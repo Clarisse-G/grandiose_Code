@@ -38,3 +38,16 @@
     --bs-btn-active-bg:indigo;
     --bs-btn-active-border-color: indigo;
 }
+
+.section{
+    border-radius: 24px;
+background: url(<path-to-image>) lightgray 50% / cover no-repeat, var(--colors-blue-blue-200, #9EC5FE);
+    display: flex;
+height: 416px;
+padding: 32px;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-start;
+flex: 1 0 0;
+aspect-ratio: 1/1;
+}
