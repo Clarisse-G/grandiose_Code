@@ -1,0 +1,95 @@
+.Hero{
+    display: flex;
+    padding: 3rem 4.5rem;
+    align-items: flex-end;
+    gap: 1.5rem;
+    align-self: stretch;
+}
+
+.logo_image{
+    display: flex;
+    width: 12rem;
+    height: 12rem;
+    transform: rotate(-5deg);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.content-hero{
+display: flex;
+align-items: center;
+gap: 3rem;
+flex: 1 0 0;
+
+}
+
+.Portfolio-container{
+display: flex;
+padding: 3rem 4.5rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 4rem;
+align-self: stretch;
+}
+
+.banner{
+    display: flex;
+padding: 5rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 2rem;
+align-self: stretch;
+border-radius: 1rem;
+background: var(--colors-indigo-indigo-600, #520DC2);
+}
+
+.banner-inside{
+    display: flex;
+    padding: 1rem 2rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    align-self: stretch;
+    border-radius: 0.5rem;
+    background: var(--colors-indigo-indigo-500, #6610F2)
+}
+
+.text-content{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.5rem;
+align-self: stretch;
+}
+
+.Grid-card{
+    display: grid;
+    row-gap: 2.5rem;
+    column-gap: 40px;
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.container-logo{
+display: flex;
+padding: 0.25rem 2rem;
+justify-content: space-between;
+align-items: center;
+align-self: stretch;
+border-radius: 62.5rem;
+background: var(--Gray-200, #E9ECEF);
+}
+
+.pager-container{
+    display: flex;
+padding: 1rem;
+flex-direction: column;
+justify-content: center;
+align-items: flex-end;
+gap: 0.5rem;
+align-self: stretch;
+border-radius: 0.5rem;
+background: var(--Gray-100, #F8F9FA);
+}
