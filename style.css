@@ -206,3 +206,11 @@ align-self: stretch;
       z-index: -1;
 }
 
+.service-section{
+  display: flex;
+padding: 3rem 4.5rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 2.5rem;
+align-self: stretch;
+}
