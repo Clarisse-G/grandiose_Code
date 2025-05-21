@@ -42,6 +42,10 @@
     color:  rgba(131, 10, 145, 1);
 }
 
+.badge{
+    color: blueviolet;
+    background-color: #9EC5FE;
+}
 .btn-troisième{
     --bs-btn-font-weight: 500;
     --bs-btn-font-size: 12px;
