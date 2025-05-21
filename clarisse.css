@@ -64,10 +64,6 @@
     background-color: rgba(235, 229, 252, 1);
 }
 
-.text-bg-secondary{
-    color:  rgba(82, 39, 204, 1);
-    color
-}
 .section{
     border-radius: 24px;
 background: url(<path-to-image>) lightgray 50% / cover no-repeat, var(--colors-blue-blue-200, #9EC5FE);
