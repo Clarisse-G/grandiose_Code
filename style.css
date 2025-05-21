@@ -300,6 +300,7 @@ align-self: stretch;}
 
 .btn-primary {
    --bs-btn-font-weight: 600;
+    --bs-btn-font-size: 12px;
       --bs-btn-color: white;
       --bs-btn-bg: #6610F2;
       --bs-btn-border-color: #6610F2;
@@ -314,6 +315,7 @@ align-self: stretch;}
 		}
   .btn-secondary {
    --bs-btn-font-weight: 600;
+     --bs-btn-font-size: 12px;
       --bs-btn-color: #6610F2;
       --bs-btn-bg: #EBE5FC;
       --bs-btn-border-color: #EBE5FC;
