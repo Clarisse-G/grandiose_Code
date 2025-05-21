@@ -98,7 +98,6 @@ text-transform: uppercase;
    --bs-btn-active-border-color: indigo;
 }
 
-<<<<<<< Updated upstream
 .a-number{
   display: flex; 
   padding: 3rem 0rem;
@@ -242,14 +241,13 @@ align-self: stretch;
 }
 
 .collaborator{
-.service-section1{
+/* .service-section1 */
   display: flex;
 padding: 3rem 4.5rem;
 flex-direction: column;
 align-items: flex-start;
 gap: 2.5rem;
 align-self: stretch;
-
 }
 
 .collaborators{
@@ -261,8 +259,8 @@ gap: 2.5rem;
 align-self: stretch;
 }
 
-.accordion{
-min-width: 100%;
+.accordionExample{
+width: 15rem;
 }
 
 .container-fluid {
@@ -271,21 +269,4 @@ padding: 0rem 3.75rem;
 align-items: flex-start;
 gap: 0.5rem;
 align-self: stretch;
-=======
-.btn-gris{
-  --bs-btn-font-weight: 500;
-  --bs-btn-font-size: 12px;
-  --bs-btn-colortext : rgba(102, 16, 242, 1);
-  --bs-btn-border : rgba(102, 16, 242, 1);
-  --bs-btn-bg: rgb(87, 20, 20);
-  --bs-btn-border-color: purple;
-  --bs-btn-border-radius: .5rem;
-  --bs-btn-hover-color: white;
-  --bs-btn-hover-bg: indigo;
-  --bs-btn-hover-border-color: rgb(212, 105, 212);
-  --bs-btn-focus-shadow-rgb: green;
-  --bs-btn-active-color: white;
-  --bs-btn-active-bg: purple;
-  --bs-btn-active-border-color: indigo;
->>>>>>> Stashed changes
 }
