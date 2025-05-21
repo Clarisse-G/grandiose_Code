@@ -270,8 +270,8 @@ display: flex;
 padding: 0rem 3.75rem;
 align-items: flex-start;
 gap: 0.5rem;
-align-self: stretch;
-=======
+align-self: stretch;}
+
 .btn-gris{
   --bs-btn-font-weight: 500;
   --bs-btn-font-size: 12px;
@@ -286,6 +286,8 @@ align-self: stretch;
   --bs-btn-focus-shadow-rgb: green;
   --bs-btn-active-color: white;
   --bs-btn-active-bg: purple;
-  --bs-btn-active-border-color: indigo;
->>>>>>> Stashed changes
-}
+  --bs-btn-active-border-color: indigo;}}
+
+  .display-4{
+    text-decoration: bold;
+  }
