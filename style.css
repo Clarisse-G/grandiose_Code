@@ -24,6 +24,7 @@
   }
 }
 
+
 .content-plus-button{
   display: flex;  
   padding-top: 4rem; 
@@ -290,6 +291,7 @@ background: var(--bs-primary-rgb, #7749F8);
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  color: rgba(67, 40, 116, 1);
     }
 }
 
@@ -328,6 +330,9 @@ background: var(--bs-primary-rgb, #7749F8);
 		}}
 
 
-
+   .container-fluid{
+      .navbar-brand{
+    color: rgba(133, 64, 245, 1);
+      }}
 
 
