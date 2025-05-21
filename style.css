@@ -214,3 +214,7 @@ align-items: flex-start;
 gap: 2.5rem;
 align-self: stretch;
 }
+
+.accordion {
+min-width: 100%;
+}
