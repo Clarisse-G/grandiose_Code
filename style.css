@@ -284,8 +284,21 @@ align-self: stretch;}
   --bs-btn-focus-shadow-rgb: green;
   --bs-btn-active-color: white;
   --bs-btn-active-bg: purple;
-  --bs-btn-active-border-color: indigo;}}
+  --bs-btn-active-border-color: indigo;}
 
   .display-4{
     text-decoration: bold;
+  }
+
+  .number-section{
+    color:rgba(61, 10, 145, 1);
+  }
+  .a-number{
+    .display-4{
+      font-family: Inter;
+font-size: 52px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+    }
   }
