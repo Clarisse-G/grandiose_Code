@@ -216,6 +216,7 @@ align-self: stretch;
 }
 
 .collaborator{
+.service-section1{
   display: flex;
 padding: 3rem 4.5rem;
 flex-direction: column;
@@ -232,4 +233,8 @@ flex-direction: column;
 align-items: flex-start;
 gap: 2.5rem;
 align-self: stretch;
+}
+
+.accordion{
+min-width: 100%;
 }
