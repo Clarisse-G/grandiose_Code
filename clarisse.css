@@ -3,6 +3,9 @@
 
 .help{
     color: rgba(82, 13, 194, 1);
+    .h2{
+        
+    }
 }
 .number{
     display: flex;
