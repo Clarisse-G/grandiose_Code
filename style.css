@@ -294,11 +294,18 @@ align-self: stretch;}
     color:rgba(61, 10, 145, 1);
   }
   .a-number{
-    .display-4{
-      font-family: Inter;
-font-size: 52px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+    .display-4{   
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
     }
   }
+.t1{
+  .display-1{   
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+    }
+}
