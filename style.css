@@ -209,9 +209,18 @@ gap: 2.5rem;
 align-self: stretch;
 }
 
-.collaborator{
-/* .service-section1 */
+.service-section1{
   display: flex;
+padding: 3rem 0rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 2rem;
+align-self: stretch;
+}
+
+.collaborator{
+
+display: flex;
 padding: 3rem 4.5rem;
 flex-direction: column;
 align-items: flex-start;
@@ -338,4 +347,12 @@ background: var(--bs-primary-rgb, #7749F8);
   
   border-radius: 12px;
 >>>>>>> 0600c14b5f9ddabc557152892c7d928c9baf2628
+}
+
+.stackcard {
+display: flex;
+width: 19.125rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 1rem;
 }
