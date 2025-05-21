@@ -93,3 +93,16 @@ align-self: stretch;
 border-radius: 0.5rem;
 background: var(--Gray-100, #F8F9FA);
 }
+/* .badge{
+    border-radius: 0.75rem;
+background: var(--Primary-Light, #EBE5FC);
+} */
+
+.collaoborator{
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 1.5rem;
+    align-self: stretch;
+    flex-wrap: wrap;"
+}
