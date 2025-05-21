@@ -233,7 +233,7 @@ align-self: stretch;
 
 .service-section{
   display: flex;
-padding: 3rem rem;
+padding: 3rem 0rem;
 flex-direction: column;
 align-items: flex-start;
 gap: 2.5rem;
@@ -259,33 +259,26 @@ gap: 2.5rem;
 align-self: stretch;
 }
 
-.accordionExample{
-width: 15rem;
+.accordion{
+min-width: 100%;
 }
 
-.container-fluid {
+/* .container-fluid {
 display: flex;
 padding: 0rem 3.75rem;
 align-items: flex-start;
 gap: 0.5rem;
-align-self: stretch;}
+align-self: stretch;
+} */
 
-.btn-gris{
-  --bs-btn-font-weight: 500;
-  --bs-btn-font-size: 12px;
-  --bs-btn-colortext : rgba(102, 16, 242, 1);
-  --bs-btn-border : rgba(102, 16, 242, 1);
-  --bs-btn-bg: rgb(87, 20, 20);
-  --bs-btn-border-color: purple;
-  --bs-btn-border-radius: .5rem;
-  --bs-btn-hover-color: white;
-  --bs-btn-hover-bg: indigo;
-  --bs-btn-hover-border-color: rgb(212, 105, 212);
-  --bs-btn-focus-shadow-rgb: green;
-  --bs-btn-active-color: white;
-  --bs-btn-active-bg: purple;
-  --bs-btn-active-border-color: indigo;}}
+.container{
+padding-top: 2rem;
+}
 
-  .display-4{
-    text-decoration: bold;
-  }
+.toast {
+align-items: end;
+position: absolute;
+right: 1.5rem;
+top: 1.5rem;
+background: var(--bs-primary-rgb, #7749F8);
+}
