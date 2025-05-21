@@ -81,22 +81,7 @@ text-transform: uppercase;
      --bs-btn-active-border-color: indigo;
  }
 
- .btn-main{
-  --bs-btn-font-weight: 500;
-   --bs-btn-font-size: 12px;
-   --bs-btn-colortext : rgba(102, 16, 242, 1);
-   --bs-btn-border : rgba(102, 16, 242, 1);
-   --bs-btn-bg: rgb(230, 224, 238);
-   --bs-btn-border-color: purple;
-   --bs-btn-border-radius: .5rem;
-   --bs-btn-hover-color: white;
-   --bs-btn-hover-bg: indigo;
-   --bs-btn-hover-border-color: rgb(212, 105, 212);
-   --bs-btn-focus-shadow-rgb: green;
-   --bs-btn-active-color: white;
-   --bs-btn-active-bg: purple;
-   --bs-btn-active-border-color: indigo;
-}
+ 
 
 .a-number{
   display: flex; 
@@ -309,4 +294,22 @@ align-self: stretch;}
   line-height: normal;
     }
 }
-.
+
+
+.button{
+
+.btn-primary {
+   --bs-btn-font-weight: 600;
+      --bs-btn-color: white;
+      --bs-btn-bg: indigo;
+      --bs-btn-border-color: indigo;
+      --bs-btn-border-radius: .5rem;
+      --bs-btn-hover-color: white;
+      --bs-btn-hover-bg: red;
+      --bs-btn-hover-border-color: orange;
+      --bs-btn-focus-shadow-rgb: green;
+      --bs-btn-active-color: yellow;
+      --bs-btn-active-bg: purple;
+      --bs-btn-active-border-color: red;
+		}}
+
