@@ -26,7 +26,7 @@
 
 .content-plus-button{
   display: flex;  
-  padding: 3rem 4.5rem; 
+  padding-top: 4rem; 
   flex-direction: column; 
   justify-content: center;  
   align-items: flex-start;
@@ -91,7 +91,7 @@
 
 .number-section{
   display: flex; 
-  padding: 0rem 4.5rem; 
+  padding: 0rem 0rem; 
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
@@ -172,8 +172,8 @@ line-height: 100%;
 .footer{
 display: flex;
 padding-top: 6rem;
-padding-left: 4rem;
-padding-right: 4rem;
+padding-left: rem;
+padding-right: rem;
 padding-bottom: 4.5rem;
 flex-direction: column;
 justify-content: center;
@@ -208,7 +208,7 @@ align-self: stretch;
 
 .service-section{
   display: flex;
-padding: 3rem 4.5rem;
+padding: 3rem rem;
 flex-direction: column;
 align-items: flex-start;
 gap: 2.5rem;
@@ -217,4 +217,12 @@ align-self: stretch;
 
 .accordion {
 min-width: 100%;
+}
+
+.container-fluid {
+display: flex;
+padding: 0rem 3.75rem;
+align-items: flex-start;
+gap: 0.5rem;
+align-self: stretch;
 }
