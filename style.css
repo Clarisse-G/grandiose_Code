@@ -98,7 +98,6 @@ text-transform: uppercase;
    --bs-btn-active-border-color: indigo;
 }
 
-<<<<<<< Updated upstream
 .a-number{
   display: flex; 
   padding: 3rem 0rem;
@@ -242,14 +241,13 @@ align-self: stretch;
 }
 
 .collaborator{
-.service-section1{
+/* .service-section1 */
   display: flex;
 padding: 3rem 4.5rem;
 flex-direction: column;
 align-items: flex-start;
 gap: 2.5rem;
 align-self: stretch;
-
 }
 
 .collaborators{
@@ -261,8 +259,8 @@ gap: 2.5rem;
 align-self: stretch;
 }
 
-.accordion{
-min-width: 100%;
+.accordionExample{
+width: 15rem;
 }
 
 .container-fluid {
