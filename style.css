@@ -411,6 +411,7 @@ background: var(--bs-primary-rgb, #7749F8);
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 .test{
 
@@ -418,6 +419,8 @@ background: var(--bs-primary-rgb, #7749F8);
 }
 >>>>>>> Stashed changes
 =======
+=======
+>>>>>>> c46b024436e3be68e84769c594dd04688447131a
 }
 
 .number2{
@@ -514,5 +517,13 @@ grid-template-columns: repeat(3, minmax(0, 1fr));
     color: rgba(82, 39, 204, 1);
     background-color: rgba(235, 229, 252, 1);
 }
+<<<<<<< HEAD
 badge badge-primary my-badge
 >>>>>>> 5b30ce207131d0340bc27193fe035b3ebf770450
+=======
+
+.nav-primary{
+  background-color: rgba(82, 39, 204, 1);
+  color: white;
+}
+>>>>>>> c46b024436e3be68e84769c594dd04688447131a
