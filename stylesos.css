@@ -434,7 +434,6 @@ grid-template-columns: repeat(3, minmax(0, 1fr));
   color: white;
 }
 
-
 .custom-card {
       border-radius: 1.5rem;
       height: 100%;
@@ -585,3 +584,26 @@ min-width: 100%;
       font-size: 1rem;
     }
     
+.blog-card {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 32px;
+  position: relative;
+}
+
+.blog-card .bg-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.25; 
+  z-index: 0;
+}
+
+.blog-card > * {
+  z-index: 1; 
+}
