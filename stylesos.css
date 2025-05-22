@@ -366,7 +366,7 @@ background: var(--bs-primary-rgb, #7749F8);
       }}
 
       .logo_image{
-    scaleY(-30)}
+    scaleY:(-30)}
 
 .help{
     color: rgba(82, 13, 194, 1);}
@@ -488,7 +488,7 @@ grid-template-columns: repeat(3, minmax(0, 1fr));
     background-color: rgba(235, 229, 252, 1);
 }
 
-.nav-primary{
+.toast.nav-primary{
   background-color: rgba(82, 39, 204, 1);
   color: white;
 }
