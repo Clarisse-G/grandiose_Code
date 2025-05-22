@@ -489,7 +489,6 @@ grid-template-columns: repeat(3, minmax(0, 1fr));
     color: rgba(82, 39, 204, 1);
     background-color: rgba(235, 229, 252, 1);
 }
-badge badge-primary my-badge
 
 .nav-primary{
   background-color: rgba(82, 39, 204, 1);
