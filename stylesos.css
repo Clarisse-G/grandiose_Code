@@ -276,38 +276,6 @@ background: var(--bs-primary-rgb, #7749F8);
   color: rgba(67, 40, 116, 1);}}
 
   
-.button{
-  .btn-primary {
-   --bs-btn-font-weight: 600;
-    --bs-btn-font-size: 12px;
-      --bs-btn-color: white;
-      --bs-btn-bg: #6610F2;
-      --bs-btn-border-color: #6610F2;
-      --bs-btn-border-radius: .5rem;
-      --bs-btn-hover-color: white;
-      --bs-btn-hover-bg: #7a36ff;
-      --bs-btn-hover-border-color: #7a36ff;
-      --bs-btn-focus-shadow-rgb: green;
-      --bs-btn-active-color: #7a36ff;
-      --bs-btn-active-bg: #7a36ff;
-      --bs-btn-active-border-color: #7a36ff;
-    }
-  .btn-secondary {
-   --bs-btn-font-weight: 600;
-     --bs-btn-font-size: 12px;
-      --bs-btn-color: #6610F2;
-      --bs-btn-bg: #EBE5FC;
-      --bs-btn-border-color: #EBE5FC;
-      --bs-btn-border-radius: .5rem;
-      --bs-btn-hover-color: white;
-      --bs-btn-hover-bg: #7a36ff;
-      --bs-btn-hover-border-color: #7a36ff;
-      --bs-btn-focus-shadow-rgb: green;
-      --bs-btn-active-color: yellow;
-      --bs-btn-active-bg: #7a36ff;
-      --bs-btn-active-border-color: #7a36ff;
-    }
-}
 
 
 .btn-primary.my-button {
@@ -357,7 +325,22 @@ background: var(--bs-primary-rgb, #7749F8);
     --bs-btn-active-bg:indigo;
     --bs-btn-active-border-color: indigo;
 }
-
+.btn-light.my-button{
+     --bs-btn-font-weight: 600;
+  --bs-btn-font-size: 1rem;
+    --bs-btn-color: white;
+    --bs-btn-bg: #7749F8;
+    --bs-btn-border-color: #7749F8;
+    --bs-btn-border-radius: .5rem;
+    --bs-btn-hover-color: white;
+    --bs-btn-hover-bg: #a178f4;
+    --bs-btn-hover-border-color: #a178f4;
+    --bs-btn-focus-shadow-rgb: #3d1097;
+    --bs-btn-active-color: #a178f4;
+    --bs-btn-active-bg: #a178f4;
+    --bs-btn-active-border-color: #a178f4;
+}
+}
 
 
    .container-fluid{
@@ -488,6 +471,10 @@ grid-template-columns: repeat(3, minmax(0, 1fr));
     background-color: rgba(235, 229, 252, 1);
 }
 
+.badge-third.my-badge{
+    color: white;
+    background-color: #7749F8;
+}
 .toast.nav-primary{
   background-color: rgba(82, 39, 204, 1);
   color: white;
