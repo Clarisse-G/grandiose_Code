@@ -271,7 +271,7 @@ background: var(--bs-primary-rgb, #7749F8);
   --bs-btn-border-radius: .5rem;
   --bs-btn-hover-color: white;
   --bs-btn-hover-bg: indigo;
-  --bs-btn-hover-border-color: rgb(212, 105, 212);
+  --bs-btn-hover-border-color: #7a36ff);
   --bs-btn-focus-shadow-rgb: green;
   --bs-btn-active-color: white;
   --bs-btn-active-bg: purple;
@@ -313,12 +313,12 @@ background: var(--bs-primary-rgb, #7749F8);
       --bs-btn-border-color: #6610F2;
       --bs-btn-border-radius: .5rem;
       --bs-btn-hover-color: white;
-      --bs-btn-hover-bg: red;
-      --bs-btn-hover-border-color: orange;
+      --bs-btn-hover-bg: #7a36ff;
+      --bs-btn-hover-border-color: #7a36ff;
       --bs-btn-focus-shadow-rgb: green;
-      --bs-btn-active-color: yellow;
-      --bs-btn-active-bg: purple;
-      --bs-btn-active-border-color: red;
+      --bs-btn-active-color: #7a36ff;
+      --bs-btn-active-bg: #7a36ff;
+      --bs-btn-active-border-color: #7a36ff;
 		}
   .btn-secondary {
    --bs-btn-font-weight: 600;
@@ -328,18 +328,19 @@ background: var(--bs-primary-rgb, #7749F8);
       --bs-btn-border-color: #EBE5FC;
       --bs-btn-border-radius: .5rem;
       --bs-btn-hover-color: white;
-      --bs-btn-hover-bg: red;
-      --bs-btn-hover-border-color: orange;
+      --bs-btn-hover-bg: #7a36ff;
+      --bs-btn-hover-border-color: #7a36ff;
       --bs-btn-focus-shadow-rgb: green;
       --bs-btn-active-color: yellow;
-      --bs-btn-active-bg: purple;
-      --bs-btn-active-border-color: red;
+      --bs-btn-active-bg: #7a36ff;
+      --bs-btn-active-border-color: #7a36ff;
 		}}
 
 
 
 
 
+<<<<<<< HEAD
 .badge2{
   color: #ffffff;
   background-color: #7a36ff;
@@ -356,3 +357,5 @@ flex-direction: column;
 align-items: flex-start;
 gap: 1rem;
 }
+=======
+>>>>>>> a5043210fa981da43622e6fdf618610e71632f04
