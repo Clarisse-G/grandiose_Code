@@ -1,0 +1,30 @@
+.btn-primary.my-button {
+  --bs-btn-font-weight: 600;
+  --bs-btn-font-size: 1rem;
+    --bs-btn-color: white;
+    --bs-btn-bg: #6610F2;
+    --bs-btn-border-color: #6610F2;
+    --bs-btn-border-radius: .5rem;
+    --bs-btn-hover-color: white;
+    --bs-btn-hover-bg: #7a36ff;
+    --bs-btn-hover-border-color: #7a36ff;
+    --bs-btn-focus-shadow-rgb: green;
+    --bs-btn-active-color: #7a36ff;
+    --bs-btn-active-bg: #7a36ff;
+    --bs-btn-active-border-color: #7a36ff;
+}
+.btn-secondary.my-button {
+  --bs-btn-font-weight: 600;
+    --bs-btn-font-size: 1rem;
+    --bs-btn-color: #6610F2;
+    --bs-btn-bg: #EBE5FC;
+    --bs-btn-border-color: #EBE5FC;
+    --bs-btn-border-radius: .5rem;
+    --bs-btn-hover-color: white;
+    --bs-btn-hover-bg: #7a36ff;
+    --bs-btn-hover-border-color: #7a36ff;
+    --bs-btn-focus-shadow-rgb: green;
+    --bs-btn-active-color: yellow;
+    --bs-btn-active-bg: #7a36ff;
+    --bs-btn-active-border-color: #7a36ff;
+  }
