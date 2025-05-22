@@ -1,4 +1,4 @@
-.logo_image{
+/*.logo_image{
     scaleY(-30)
 }
 
@@ -53,22 +53,7 @@
 }
 
 
-.btn-troisième{
-    --bs-btn-font-weight: 500;
-    --bs-btn-font-size: 12px;
-    --bs-btn-color : rgba(102, 16, 242, 1);
-    --bs-btn-border :rgba(102, 16, 242, 1);
-    --bs-btn-bg: rgb(251, 251, 251);
-    --bs-btn-border-color: rgba(102, 16, 242, 1);
-    --bs-btn-border-radius: .5rem;
-    --bs-btn-hover-color: white;
-    --bs-btn-hover-bg: indigo;
-    --bs-btn-hover-border-color: indigo;
-    --bs-btn-focus-shadow-rgb: green;
-    --bs-btn-active-color: white;
-    --bs-btn-active-bg:indigo;
-    --bs-btn-active-border-color: indigo;
-}
+
 .badge{
     color: rgba(82, 39, 204, 1);
     background-color: rgba(235, 229, 252, 1);
@@ -101,7 +86,7 @@ border-radius: 1.5rem;
 background: var(--colors-blue-blue-200, #9EC5FE)url(/Image/Blog\ post.png);
 /* background: url(/Image/Blog\ post.png) lightgray 50% / cover no-repeat, url(<path-to-image>) lightgray 50% / cover no-repeat, url(<path-to-image>) lightgray 50% / cover no-repeat, var(--colors-blue-blue-200, #9EC5FE); */
 
-}
+/*
 
 .content-blog{
     display: flex;
@@ -128,4 +113,4 @@ align-self: stretch;
     height: 50rem;
 grid-template-rows: repeat(2, minmax(0, 1fr));
 grid-template-columns: repeat(3, minmax(0, 1fr));
-}
+}*/
