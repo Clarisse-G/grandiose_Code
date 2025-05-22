@@ -194,9 +194,18 @@ gap: 2.5rem;
 align-self: stretch;
 }
 
-.collaborator{
-/* .service-section1 */
+.service-section1{
   display: flex;
+padding: 3rem 0rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 2rem;
+align-self: stretch;
+}
+
+.collaborator{
+
+display: flex;
 padding: 3rem 4.5rem;
 flex-direction: column;
 align-items: flex-start;
@@ -351,13 +360,14 @@ background: var(--bs-primary-rgb, #7749F8);
       }}
 
       .logo_image{
-    scaleY(-30)}
+    scaleY(-30)
+}
 
 .help{
-    color: rgba(82, 13, 194, 1);}
+    color: rgba(82, 13, 194, 1);
     
-
-    .number{
+}
+.number{
     display: flex;
     align-items: flex-start;
     gap: 8px;
@@ -472,6 +482,7 @@ grid-template-columns: repeat(3, minmax(0, 1fr));
     color: rgba(82, 39, 204, 1);
     background-color: rgba(235, 229, 252, 1);
 }
+badge badge-primary my-badge
 
 .nav-primary{
   background-color: rgba(82, 39, 204, 1);
