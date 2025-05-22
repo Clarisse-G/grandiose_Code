@@ -1,20 +1,3 @@
-<<<<<<< Updated upstream
-
-/* display-font-sizes: (
-    1: 5rem,
-    2: 4.5rem,
-    3: 4rem,
-    4: 3.5rem,
-    5: 3rem,
-    6: 2.5rem
-  ); */
-
-
-  
-  /* display-font-family: inter;
-  display-font-style:  null;
-  display-font-weight: 300;
-  display-line-height: headings-line-height; */
 
 .content_plus_button{
   color: rgba(67, 40, 116, 1);
@@ -314,7 +297,7 @@ background: var(--bs-primary-rgb, #7749F8);
 
 .btn-primary.my-button {
   --bs-btn-font-weight: 600;
-  --bs-btn-font-size: 12px;
+  --bs-btn-font-size: 1rem;
     --bs-btn-color: white;
     --bs-btn-bg: #6610F2;
     --bs-btn-border-color: #6610F2;
@@ -329,7 +312,7 @@ background: var(--bs-primary-rgb, #7749F8);
 }
 .btn-secondary.my-button {
   --bs-btn-font-weight: 600;
-    --bs-btn-font-size: 12px;
+    --bs-btn-font-size: 1rem;
     --bs-btn-color: #6610F2;
     --bs-btn-bg: #EBE5FC;
     --bs-btn-border-color: #EBE5FC;
@@ -345,7 +328,7 @@ background: var(--bs-primary-rgb, #7749F8);
 
 .btn-troisième.my-button {
     --bs-btn-font-weight: 500;
-    --bs-btn-font-size: 12px;
+    --bs-btn-font-size: 0.5rem;
     --bs-btn-color : rgba(102, 16, 242, 1);
     --bs-btn-border :rgba(102, 16, 242, 1);
     --bs-btn-bg: rgb(251, 251, 251);
