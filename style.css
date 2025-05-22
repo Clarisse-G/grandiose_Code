@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 
 /* display-font-sizes: (
     1: 5rem,
@@ -23,6 +24,7 @@
     font-size: larger;
   }
 }
+
 
 .content-plus-button{
   display: flex;  
@@ -299,13 +301,13 @@ background: var(--bs-primary-rgb, #7749F8);
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  color: rgba(67, 40, 116, 1);
     }
 }
 
 
 .button{
-
-.btn-primary {
+  .btn-primary {
    --bs-btn-font-weight: 600;
     --bs-btn-font-size: 12px;
       --bs-btn-color: white;
@@ -340,22 +342,3 @@ background: var(--bs-primary-rgb, #7749F8);
 
 
 
-<<<<<<< HEAD
-.badge2{
-  color: #ffffff;
-  background-color: #7a36ff;
-  padding: 4px 8px;
-  
-  border-radius: 12px;
->>>>>>> 0600c14b5f9ddabc557152892c7d928c9baf2628
-}
-
-.stackcard {
-display: flex;
-width: 19.125rem;
-flex-direction: column;
-align-items: flex-start;
-gap: 1rem;
-}
-=======
->>>>>>> a5043210fa981da43622e6fdf618610e71632f04
