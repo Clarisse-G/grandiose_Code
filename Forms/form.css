@@ -28,3 +28,47 @@
     --bs-btn-active-bg: #7a36ff;
     --bs-btn-active-border-color: #7a36ff;
   }
+
+  .tittle-modal-section{
+    color: #000;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.25rem; /* 125% */
+  }
+
+  .content-modal-section{
+    color: #000;
+
+/* Body/Small */
+font-size: 0.8rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  }
+
+.opitionlist{
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.5rem;
+align-self: stretch;
+}
+
+.badge-primary.my-badge{
+  color: white;
+   background-color:rgba(61, 10, 145, 1);
+}
+
+.listgroupeitem{
+  display: flex;
+padding: 0.5rem 1rem;
+align-items: center;
+gap: 0.5rem;
+align-self: stretch;
+border-bottom: 1px solid var(--Gray-300, #DEE2E6);
+}
+
+.subheading{
+  flex: 1 0 0;
+}
