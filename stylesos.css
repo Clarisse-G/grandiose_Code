@@ -480,3 +480,57 @@ grid-template-columns: repeat(3, minmax(0, 1fr));
   color: white;
 }
 
+.navbar {
+--bs-navbar-brand-font-weight: 700;
+--bs-navbar-brand-color: #7a36ff;
+--bs-navbar-brand-hover-color: #7a36ff
+}
+
+.navbar-brand {
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
+
+.navbar-item {
+color: var(--Primary-Color-Dark, #5227CC);
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 175%;
+}
+
+.services-section {
+display: flex;
+padding: 3rem 0rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 2.5rem;
+
+}
+.accordion {
+min-width: 100%;
+}
+
+#loader {
+  scale: 400%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  transition: opacity 0.3s ease;
+}
+
+#loader.hidden {
+  opacity: 0;
+  pointer-events: none;
+}

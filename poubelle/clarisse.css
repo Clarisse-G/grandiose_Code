@@ -1,0 +1,116 @@
+/*.logo_image{
+    scaleY(-30)
+}
+
+.help{
+    color: rgba(82, 13, 194, 1);
+    
+}
+.number{
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+
+    .art1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    flex: 1 0 0;
+    color: rgba(61, 10, 145, 1);
+    }
+
+
+}
+
+.number2{
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+
+    .art1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3rem;
+    flex: 1 0 0;
+    color: rgba(131, 10, 145, 1);
+    }
+}
+
+.help1{
+    color:  rgba(131, 10, 145, 1);
+}
+
+.card-color-section{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4rem;
+    align-self: stretch;
+}
+
+
+
+.badge{
+    color: rgba(82, 39, 204, 1);
+    background-color: rgba(235, 229, 252, 1);
+}
+
+.section{
+    border-radius: 24px;
+background: url(<path-to-image>) lightgray 50% / cover no-repeat, var(--colors-blue-blue-200, #9EC5FE);
+    display: flex;
+height: 416px;
+padding: 32px;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-start;
+flex: 1 0 0;
+aspect-ratio: 1/1;
+}
+
+.blog-post{
+    display: flex;
+padding: 2rem;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-start;
+flex: 1 0 0;
+align-self: stretch;
+grid-row: 1 / span 1;
+grid-column: 1 / span 1;
+border-radius: 1.5rem;
+background: var(--colors-blue-blue-200, #9EC5FE)url(/Image/Blog\ post.png);
+/* background: url(/Image/Blog\ post.png) lightgray 50% / cover no-repeat, url(<path-to-image>) lightgray 50% / cover no-repeat, url(<path-to-image>) lightgray 50% / cover no-repeat, var(--colors-blue-blue-200, #9EC5FE); */
+
+/*
+
+.content-blog{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.5rem;
+align-self: stretch;
+}
+
+.container-read{
+    display: flex;
+justify-content: flex-end;
+align-items: center;
+gap: 0.5rem;
+align-self: stretch;
+}
+
+.grid-blog{
+    display: grid;
+    row-gap: 2.5rem;
+    column-gap: 40px;
+    flex-shrink: 0;
+    align-self: stretch;
+    height: 50rem;
+grid-template-rows: repeat(2, minmax(0, 1fr));
+grid-template-columns: repeat(3, minmax(0, 1fr));
+}*/
