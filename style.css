@@ -253,49 +253,30 @@ top: 1.5rem;
 background: var(--bs-primary-rgb, #7749F8);
 }
 
-.btn-gris{
-  --bs-btn-font-weight: 500;
-  --bs-btn-font-size: 12px;
-  --bs-btn-colortext : rgba(102, 16, 242, 1);
-  --bs-btn-border : rgba(102, 16, 242, 1);
-  --bs-btn-bg: rgb(87, 20, 20);
-  --bs-btn-border-color: purple;
-  --bs-btn-border-radius: .5rem;
-  --bs-btn-hover-color: white;
-  --bs-btn-hover-bg: indigo;
-  --bs-btn-hover-border-color: #7a36ff);
-  --bs-btn-focus-shadow-rgb: green;
-  --bs-btn-active-color: white;
-  --bs-btn-active-bg: purple;
-  --bs-btn-active-border-color: indigo;
-}
 
-  .display-4{
-    text-decoration: bold;
-  }
 
-  .number-section{
-    color:rgba(61, 10, 145, 1);
+.display-4{
+  text-decoration: bold;}
+
+.number-section{
+  color:rgba(61, 10, 145, 1);
   }
-  .a-number{
-    .display-4{   
+.a-number{
+  .display-4{   
   font-size: 52px;
   font-style: normal;
   font-weight: 700;
-  line-height: normal;
-    }
-  }
+  line-height: normal; }}
+
 .t1{
   .display-1{   
   font-size: 72px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  color: rgba(67, 40, 116, 1);
-    }
-}
+  color: rgba(67, 40, 116, 1);}}
 
-
+  
 .button{
   .btn-primary {
    --bs-btn-font-weight: 600;
@@ -386,14 +367,13 @@ background: var(--bs-primary-rgb, #7749F8);
       }}
 
       .logo_image{
-    scaleY(-30)
-}
+    scaleY(-30)}
 
 .help{
-    color: rgba(82, 13, 194, 1);
+    color: rgba(82, 13, 194, 1);}
     
-}
-.number{
+
+    .number{
     display: flex;
     align-items: flex-start;
     gap: 8px;
