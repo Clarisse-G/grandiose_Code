@@ -476,6 +476,7 @@ grid-template-columns: repeat(3, minmax(0, 1fr));
 .badge-primary.my-badge{
    color: white;
     background-color:rgba(61, 10, 145, 1);
+    font-weight: 500;
 }
 
 .badge-secondary.my-badge{
