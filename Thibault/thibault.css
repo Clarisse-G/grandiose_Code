@@ -23,37 +23,12 @@ line-height: 175%;
 
 .services-section {
 display: flex;
-padding: 3rem 4.5rem;
+padding: 3rem 0rem;
 flex-direction: column;
 align-items: flex-start;
 gap: 2.5rem;
 
 }
-<<<<<<< Updated upstream
 .accordion {
 min-width: 100%;
-=======
-
-.accordion-button {
-    color: var(--Gray-800, #343A40);
-
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-}
-
-.accordion-body {
-    color: var(--Gray-600, #6C757D);
-
-    /* Body/ Base text */
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.75rem; /* 175% */
-}
-
-.accordion{
-width:100%;
->>>>>>> Stashed changes
 }
