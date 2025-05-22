@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 
 /* display-font-sizes: (
     1: 5rem,
@@ -388,7 +389,10 @@ background: var(--bs-primary-rgb, #7749F8);
     color: rgba(61, 10, 145, 1);
     }
 
+.test{
 
+    background-color: blue;
+}
 }
 
 .number2{
@@ -485,6 +489,7 @@ grid-template-columns: repeat(3, minmax(0, 1fr));
     color: rgba(82, 39, 204, 1);
     background-color: rgba(235, 229, 252, 1);
 }
+badge badge-primary my-badge
 
 .nav-primary{
   background-color: rgba(82, 39, 204, 1);
