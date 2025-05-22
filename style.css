@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 
 /* display-font-sizes: (
     1: 5rem,
@@ -331,3 +332,9 @@ background: var(--bs-primary-rgb, #7749F8);
 
 
 
+=======
+.test{
+
+    background-color: blue;
+}
+>>>>>>> Stashed changes
