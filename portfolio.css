@@ -106,3 +106,10 @@ background: var(--Primary-Light, #EBE5FC);
     align-self: stretch;
     flex-wrap: wrap;"
 }
+
+.card-text {
+color: var(--Heading-Title-Color, #152536);
+font-size: 1rem;
+font-style: normall;
+font-weight:400;
+line-height: 1.75rem;
