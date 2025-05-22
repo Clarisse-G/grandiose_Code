@@ -1,19 +1,3 @@
-/* display-font-sizes: (
-    1: 5rem,
-    2: 4.5rem,
-    3: 4rem,
-    4: 3.5rem,
-    5: 3rem,
-    6: 2.5rem
-  ); */
-
-
-  
-  /* display-font-family: inter;
-  display-font-style:  null;
-  display-font-weight: 300;
-  display-line-height: headings-line-height; */
-
 .content_plus_button{
   color: rgba(67, 40, 116, 1);
 
@@ -64,24 +48,6 @@ text-transform: uppercase;
     line-height: 175%;
 }
 
-
- 
-
-.a-number{
-  display: flex; 
-  padding: 3rem 0rem;
-  flex-direction: column; 
-  justify-content: center;
-  align-items: start;
-  flex: 1 0 0;
-}
-
-.number{
-  display: flex;
-  align-items: flex-start;
-  gap: 1.5rem;
-  align-self: stretch;
-}
 
 .number-section{
   display: flex; 
@@ -232,13 +198,6 @@ align-self: stretch;
 min-width: 100%;
 }
 
-/* .container-fluid {
-display: flex;
-padding: 0rem 3.75rem;
-align-items: flex-start;
-gap: 0.5rem;
-align-self: stretch;
-} */
 
 .container{
 padding-top: 2rem;
@@ -251,7 +210,6 @@ right: 1.5rem;
 top: 1.5rem;
 background: var(--bs-primary-rgb, #7749F8);
 }
-
 
 
 .display-4{
@@ -311,7 +269,7 @@ background: var(--bs-primary-rgb, #7749F8);
 
 .btn-troisième.my-button {
     --bs-btn-font-weight: 500;
-    --bs-btn-font-size: 0.5rem;
+    --bs-btn-font-size: 1rem;
     --bs-btn-color : rgba(102, 16, 242, 1);
     --bs-btn-border :rgba(102, 16, 242, 1);
     --bs-btn-bg: rgb(251, 251, 251);
@@ -429,10 +387,7 @@ align-self: stretch;
 grid-row: 1 / span 1;
 grid-column: 1 / span 1;
 border-radius: 1.5rem;
-background: var(--colors-blue-blue-200, #9EC5FE)url(/Image/Blog\ post.png);
-/* background: url(/Image/Blog\ post.png) lightgray 50% / cover no-repeat, url(<path-to-image>) lightgray 50% / cover no-repeat, url(<path-to-image>) lightgray 50% / cover no-repeat, var(--colors-blue-blue-200, #9EC5FE); */
-
-}
+background: var(--colors-blue-blue-200, #9EC5FE)url(/Image/Blog\ post.png);}
 
 .content-blog{
     display: flex;
@@ -473,24 +428,24 @@ grid-template-columns: repeat(3, minmax(0, 1fr));
 
 .badge-third.my-badge{
     color: white;
-    background-color: #7749F8;
+    background-color: rgb(119, 73, 248);
 }
 .toast.nav-primary{
   background-color: rgba(82, 39, 204, 1);
   color: white;
 }
 
- .custom-card {
+
+.custom-card {
       border-radius: 1.5rem;
       height: 100%;
       padding: 1.5rem;
       color: #000;
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
-    }
+      justify-content: space-between; }
 
-    .card-title {
+.card-title {
       font-weight: 700;
       font-size: 1.25rem;
     }
@@ -519,3 +474,115 @@ grid-template-columns: repeat(3, minmax(0, 1fr));
     .bg-pink { background-color: #ffc6d9; }
     .bg-green { background-color: #c8ecd4; }
     .bg-lightblue { background-color: #c4e2ff; }
+
+.navbar {
+--bs-navbar-brand-font-weight: 700;
+--bs-navbar-brand-color: #7a36ff;
+--bs-navbar-brand-hover-color: #7a36ff
+}
+
+.navbar-brand {
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
+
+.navbar-item {
+color: var(--Primary-Color-Dark, #5227CC);
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 175%;
+}
+
+.services-section {
+display: flex;
+padding: 3rem 0rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 2.5rem;
+
+}
+.accordion {
+min-width: 100%;
+}
+
+#loader {
+  scale: 400%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  transition: opacity 0.3s ease;
+}
+
+#loader.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+    .service-icon {
+      font-size: 2.5rem;
+      color: #6200ee;
+      margin-bottom: 1rem;
+    }
+    .service-title {
+      font-weight: bold;
+      color: #6200ee;
+      margin-bottom: 1rem;
+    }
+    .service-text {
+      color: #3c1a88;
+      font-size: 1.1rem;
+    }
+    .btn-outline-purple {
+      color: #6200ee;
+      border: 1.5px solid #6200ee;
+      border-radius: 10px;
+      padding: 0.5rem 1rem;
+      font-weight: 600;
+      font-size: 0.9rem;
+    }
+    .btn-outline-purple:hover {
+      background-color: #6200ee;
+      color: white;
+    }
+
+     .profile-card {
+      text-align: left;
+    }
+
+    .profile-img-wrapper {
+      display: flex;
+      justify-content: left;
+      margin-bottom: 1rem;
+    }
+
+    .profile-img {
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+
+
+    .profile-name {
+      color:rgba(131, 10, 145, 1);
+      font-weight: 700;
+      font-size: 1.4rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .profile-desc {
+      color:rgba(131, 10, 145, 1);
+      font-size: 1rem;
+    }
+    
