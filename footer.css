@@ -1,0 +1,67 @@
+:root {
+  --indigo-600: #520DC2;
+  --indigo-700: #3D0A91;
+  --indigo-500: #7749F8;
+}
+
+/* Couleurs personnalisées */
+.bg-indigo {
+  background-color: var(--indigo-700);
+}
+
+.text-indigo-600 {
+  color: var(--indigo-600);
+}
+
+.text-indigo-700 {
+  color: var(--indigo-700);
+}
+
+/* Layout & dimensions */
+.footer-container {
+  min-height: 322px;
+  padding-bottom: 80px;
+}
+
+.footer-bg {
+  height: 322px;
+  z-index: 0;
+}
+
+/* Bloc blanc devant */
+.container {
+  z-index: 1;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+
+/* Logo box */
+.logo-box {
+  width: 48px;
+  height: 48px;
+  background-color: var(--indigo-600);
+  border-radius: 6px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Logo inner carré blanc simulé */
+.logo-inner {
+  width: 20px;
+  height: 34px;
+  background-color: white;
+  position: absolute;
+}
+
+/* Bouton */
+.btn-grandiose {
+  background-color: var(--indigo-500);
+  color: white;
+  padding: 16px 24px;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 6px;
+  border: none;
+  line-height: 1.1;
+  font-family: 'Inter', sans-serif;
+}
