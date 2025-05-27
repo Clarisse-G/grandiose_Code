@@ -48,7 +48,21 @@ text-transform: uppercase;
     line-height: 175%;
 }
 
+.a-number{
+  display: flex; 
+  padding: 3rem 0rem;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: start;
+  flex: 1 0 0;
+}
 
+.number{
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  align-self: stretch;
+}
 .number-section{
   display: flex; 
   padding: 0rem 0rem; 
@@ -556,6 +570,7 @@ min-width: 100%;
 
      .profile-card {
       text-align: left;
+    
     }
 
     .profile-img-wrapper {
@@ -606,4 +621,16 @@ min-width: 100%;
 
 .blog-card > * {
   z-index: 1; 
+}
+
+.frame_button{
+padding-top: 1rem;
+}
+
+.logo_image{
+  padding-bottom: 1rem;
+}
+
+.profile-name{
+  padding-top: 0.5rem;
 }
