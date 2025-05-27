@@ -171,7 +171,23 @@
         </ul>
       </nav>
     </div>
-    
+    <div id="loader" class="hidden">
+  <img src="/Image/Animation Logo.gif" alt="Loading..." />
+</div>
+
+<script>
+  const workLink = document.getElementById('work-link');
+  const loader = document.getElementById('loader');
+
+  workLink.addEventListener('click', function (e) {
+    e.preventDefault();
+    loader.classList.remove('hidden');
+    setTimeout(() => {
+      window.location.href = workLink.href;
+    }, 1200);
+  });
+</script> 
+
   </section>
 </div>
 </body>
