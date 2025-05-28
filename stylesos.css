@@ -435,7 +435,7 @@ grid-template-columns: repeat(3, minmax(0, 1fr));
 
 .custom-card {
   border-radius: 1.5rem;
-  height: 100%;
+  min-height: 100%;
   padding: 1.5rem;
   color: #000;
   display: flex;
@@ -443,34 +443,37 @@ grid-template-columns: repeat(3, minmax(0, 1fr));
   justify-content: space-between; }
 
 .card-title {
-      font-weight: 700;
-      font-size: 1.25rem;
-    }
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: var(--colors-indigo-indigo-600, #520DC2)}
 
-    .badge-label {
-      font-size: 0.7rem;
-      background-color: #e0e0e0;
-      color: #333;
-      border-radius: 1rem;
-      padding: 0.25rem 0.6rem;
-      font-weight: 500;
-      display: inline-block;
-      margin-bottom: 0.3rem;
-    }
+.card-text {
+  font-weight: 400;
+  color: var(--Heading-Title-Color, #152536);
+}
 
-    .read-link {
-      text-decoration: underline;
-      font-weight: 500;
-      font-size: 0.9rem;
-      text-align: end;
-    }
+.badge-label {
+  font-size: 0.7rem;
+  background-color: #e0e0e0;
+  color: #333;
+  border-radius: 1rem;
+  padding: 0.25rem 0.6rem;
+  font-weight: 500;
+  display: inline-block;
+  margin-bottom: 0.3rem;}
 
-    .bg-blue { background-color: #bcdfff; }
-    .bg-orange { background-color: #ffd8b8; }
-    .bg-purple { background-color: #d8c7ff; }
-    .bg-pink { background-color: #ffc6d9; }
-    .bg-green { background-color: #c8ecd4; }
-    .bg-lightblue { background-color: #c4e2ff; }
+.read-link {
+  text-decoration: underline;
+  font-weight: 500;
+  font-size: 0.9rem;
+  text-align: end;}
+
+.bg-blue { background-color: #bcdfff; }
+.bg-orange { background-color: #ffd8b8; }
+.bg-purple { background-color: #d8c7ff; }
+.bg-pink { background-color: #ffc6d9; }
+.bg-green { background-color: #c8ecd4; }
+.bg-lightblue { background-color: #c4e2ff; }
 
 .navbar {
 --bs-navbar-brand-font-weight: 700;
@@ -597,6 +600,7 @@ min-width: 100%;
   justify-content: space-between;
   padding: 32px;
   position: relative;
+   z-index: 1; 
 }
 
 .blog-card .bg-image {
@@ -609,10 +613,6 @@ min-width: 100%;
   object-fit: cover;
   opacity: 0.25; 
   z-index: 0;
-}
-
-.blog-card{
-  z-index: 1; 
 }
 
 .frame_button{
@@ -731,4 +731,18 @@ margin-left: calc(-.5 * var(--bs-gutter-x));
   position: relative;
   flex-direction: row;
 }
+.card {
+  height: 100%;
+  min-height: 100%;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.container-logo {
+  margin-top: auto;}
 
