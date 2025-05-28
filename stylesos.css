@@ -747,3 +747,22 @@ margin-left: calc(-.5 * var(--bs-gutter-x));
 .container-logo {
   margin-top: auto;}
 
+.opitionlist{
+    display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+  align-self: stretch;
+  }
+.listgroupeitem{
+    display: flex;
+  padding: 0.5rem 1rem;
+  align-items: center;
+  gap: 0.5rem;
+  align-self: stretch;
+  border-bottom: 1px solid var(--Gray-300, #DEE2E6);
+  }
+  
+.subheading{
+    flex: 1 0 0;
+  }
