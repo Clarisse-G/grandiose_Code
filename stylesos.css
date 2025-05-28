@@ -54,14 +54,16 @@ text-transform: uppercase;
   flex-direction: column; 
   justify-content: center;
   align-items: start;
+  align-self: stretch;
   flex: 1 0 0;
 }
 
 .number{
   display: flex;
   align-items: flex-start;
-  gap: 1.5rem;
+  gap: 2rem;
   align-self: stretch;
+  border-top: #7a36ff 3px solid;
 }
 .number-section{
   display: flex; 
