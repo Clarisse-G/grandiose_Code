@@ -600,7 +600,7 @@ min-width: 100%;
 }
 
 .blog-card .bg-image {
-  position: flex;
+  position: absolute;
   flex-direction: column;
   top: 0;
   left: 0;
