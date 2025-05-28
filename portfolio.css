@@ -104,7 +104,7 @@ background: var(--Primary-Light, #EBE5FC);
     align-content: flex-start;
     gap: 1.5rem;
     align-self: stretch;
-    flex-wrap: wrap;"
+    flex-wrap: wrap;
 }
 
 .card-text {
