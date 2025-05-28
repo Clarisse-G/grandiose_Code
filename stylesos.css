@@ -136,8 +136,6 @@ align-self: stretch;
 
 .h5-semibold{
 color: var(--colors-indigo-indigo-600, #520DC2);
-
-/* Semi-Bold / H5 Heading */
 font-size: 1.25rem;
 font-style: normal;
 font-weight: 600;
