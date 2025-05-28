@@ -50,12 +50,12 @@ text-transform: uppercase;
 
 .a-number{
   display: flex; 
-  padding: 3rem 3rem;
+  padding: 3rem 1rem;
   flex-direction: column; 
   justify-content: center;
   align-items: start;
   align-self: stretch;
-  flex: 1 0 0;
+  
 }
 
 .number{
