@@ -50,7 +50,7 @@ text-transform: uppercase;
 
 .a-number{
   display: flex; 
-  padding: 3rem 0rem;
+  padding: 3rem 3rem;
   flex-direction: column; 
   justify-content: center;
   align-items: start;
@@ -61,9 +61,9 @@ text-transform: uppercase;
 .number{
   display: flex;
   align-items: flex-start;
-  gap: 2rem;
+  gap: 4rem;
   align-self: stretch;
-  border-top: #7a36ff 3px solid;
+  border-top: #E0CFFC 2px solid;
 }
 .number-section{
   display: flex; 
