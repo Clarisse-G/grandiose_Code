@@ -9,11 +9,43 @@
   <link rel="stylesheet" href="stylesos.css">
     <link rel="stylesheet" href="portfolio.css">
 </head>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const loader = document.getElementById("page-loader");
+
+    // Sélectionne tous les liens <a> qui mènent vers une autre page (et pas vers #)
+    const links = document.querySelectorAll("a[href]:not([href^='#']):not([target])");
+
+    links.forEach(link => {
+      link.addEventListener("click", function (e) {
+        e.preventDefault(); // Empêche la navigation immédiate
+        const href = this.getAttribute("href");
+
+        // Affiche le loader
+        loader.classList.remove("d-none");
+        setTimeout(() => loader.classList.add("show"), 10);
+
+        // Attends un peu puis redirige
+        setTimeout(() => {
+          window.location.href = href;
+        }, 600); // durée de l'animation
+      });
+    });
+  });
+</script>
+
 <body>
+<div id="page-loader" class="position-fixed top- start-0 w-100 h-100 bg-white d-flex justify-content-center align-items-center d-none" style="z-index: 9999;">
+  <div class="spinner-border violet" role="status">
+  </div>
+   <h6>Chargement...</h6>
+</div>
+
      <div class="container">
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-          <a class="navbar-brand active" href="#">GRANDIOSE</a>
+          <a class="navbar-brand active" href="index.html">GRANDIOSE</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -25,10 +57,10 @@
                 <a class="nav-link" href="#">Hire us !</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Work</a>
+                <a class="nav-link" href="Porfolio.html">Work</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
+                <a class="nav-link" href="blogs.html">Blogs</a>
               </li>
               <li class="nav-item dropdown">
                 <ul class="dropdown-menu">

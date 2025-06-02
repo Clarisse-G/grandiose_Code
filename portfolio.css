@@ -1,3 +1,19 @@
+ .spinner-border.violet {
+    color: #7a36ff !important;
+}
+
+#page-loader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h6 {
+  margin-top: 1rem;
+  color: #3d1097!important ;
+  font-weight: bold;
+}
+}
+
 .Hero{
     display: flex;
     padding: 3rem 0rem;
